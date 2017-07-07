@@ -11,7 +11,7 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="var" path="M2_REPO/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar" sourcepath="M2_REPO/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar"/>
 	<classpathentry kind="var" path="M2_REPO/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar"/>
 	<classpathentry kind="var" path="M2_REPO/javax/cache/cache-api/0.4/cache-api-0.4.jar"/>
 	<classpathentry kind="var" path="M2_REPO/javax/ws/rs/javax.ws.rs-api/2.0/javax.ws.rs-api-2.0.jar"/>
@@ -26,8 +26,8 @@
 	<classpathentry kind="src" path="/dubbo-cluster"/>
 	<classpathentry kind="src" path="/dubbo-rpc-api"/>
 	<classpathentry kind="src" path="/dubbo-common"/>
-	<classpathentry kind="var" path="M2_REPO/log4j/log4j/1.2.16/log4j-1.2.16.jar" sourcepath="M2_REPO/log4j/log4j/1.2.16/log4j-1.2.16-sources.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/javassist/javassist/3.15.0-GA/javassist-3.15.0-GA.jar" sourcepath="M2_REPO/org/javassist/javassist/3.15.0-GA/javassist-3.15.0-GA-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/log4j/log4j/1.2.16/log4j-1.2.16.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/javassist/javassist/3.15.0-GA/javassist-3.15.0-GA.jar"/>
 	<classpathentry kind="src" path="/hessian-lite"/>
 	<classpathentry kind="src" path="/dubbo-container-api"/>
 	<classpathentry kind="src" path="/dubbo-monitor-api"/>
@@ -38,13 +38,13 @@
 	<classpathentry kind="src" path="/dubbo-config-spring"/>
 	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-beans/3.2.9.RELEASE/spring-beans-3.2.9.RELEASE.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-core/3.2.9.RELEASE/spring-core-3.2.9.RELEASE.jar"/>
-	<classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar" sourcepath="M2_REPO/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-context/3.2.9.RELEASE/spring-context-3.2.9.RELEASE.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-aop/3.2.9.RELEASE/spring-aop-3.2.9.RELEASE.jar"/>
 	<classpathentry kind="var" path="M2_REPO/aopalliance/aopalliance/1.0/aopalliance-1.0.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-expression/3.2.9.RELEASE/spring-expression-3.2.9.RELEASE.jar"/>
 	<classpathentry kind="src" path="/dubbo-remoting-netty"/>
-	<classpathentry kind="var" path="M2_REPO/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.jar" sourcepath="M2_REPO/io/netty/netty/3.7.0.Final/netty-3.7.0.Final-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.jar"/>
 	<classpathentry kind="src" path="/dubbo-remoting-mina"/>
 	<classpathentry kind="src" path="/dubbo-remoting-grizzly"/>
 	<classpathentry kind="src" path="/dubbo-remoting-p2p"/>
@@ -58,7 +58,7 @@
 	<classpathentry kind="src" path="/dubbo-rpc-thrift"/>
 	<classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpclient/4.2.1/httpclient-4.2.1.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpcore/4.2.1/httpcore-4.2.1.jar"/>
-	<classpathentry kind="var" path="M2_REPO/commons-codec/commons-codec/1.6/commons-codec-1.6.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-codec/commons-codec/1.6/commons-codec-1.6.jar" sourcepath="M2_REPO/commons-codec/commons-codec/1.6/commons-codec-1.6-sources.jar"/>
 	<classpathentry kind="src" path="/dubbo-rpc-memcached"/>
 	<classpathentry kind="src" path="/dubbo-rpc-redis"/>
 	<classpathentry kind="var" path="M2_REPO/commons-pool/commons-pool/1.6/commons-pool-1.6.jar"/>
@@ -93,7 +93,7 @@
 	<classpathentry kind="var" path="M2_REPO/org/apache/bsf/bsf-api/3.1/bsf-api-3.1.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-log4j12/1.6.2/slf4j-log4j12-1.6.2.jar"/>
-	<classpathentry kind="var" path="M2_REPO/jline/jline/0.9.94/jline-0.9.94.jar" sourcepath="M2_REPO/jline/jline/0.9.94/jline-0.9.94-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/jline/jline/0.9.94/jline-0.9.94.jar"/>
 	<classpathentry kind="var" path="M2_REPO/junit/junit/4.10/junit-4.10.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar"/>
 	<classpathentry kind="var" path="M2_REPO/com/github/sgroschupf/zkclient/0.1/zkclient-0.1.jar"/>

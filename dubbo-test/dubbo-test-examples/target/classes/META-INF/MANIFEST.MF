@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
-Built-By: dandan
-Build-Jdk: 1.7.0_79
+Built-By: daijiong
+Build-Jdk: 1.8.0_77
 Specification-Title: dubbo-test-examples
 Specification-Version: 2.8.4
 Specification-Vendor: Alibaba
