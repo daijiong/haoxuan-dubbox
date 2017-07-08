@@ -31,21 +31,21 @@ public class RestClient {
 
     public static void main(String[] args) {
         final String port = "8888";
-//        final String port = "8080";
+        //        final String port = "8080";
 
-//        for (int i = 0; i < 500; i++) {
-//            final int index = i + 1;
-//            new Thread(new Runnable() {
-//                public void run() {
-//                    System.out.println("Starting thread " + index + "...");
-//                    for (int j = 0; j < 500; j++) {
-                        registerUser("http://localhost:" + port + "/services/users/register.json", MediaType.APPLICATION_JSON_TYPE);
+        //        for (int i = 0; i < 500; i++) {
+        //            final int index = i + 1;
+        //            new Thread(new Runnable() {
+        //                public void run() {
+        //                    System.out.println("Starting thread " + index + "...");
+        //                    for (int j = 0; j < 500; j++) {
+        registerUser("http://localhost:" + port + "/services/users/register.json", MediaType.APPLICATION_JSON_TYPE);
 
-                        registerUser("http://localhost:" + port + "/services/users/register.xml", MediaType.TEXT_XML_TYPE);
+        registerUser("http://localhost:" + port + "/services/users/register.xml", MediaType.TEXT_XML_TYPE);
 
-                        getUser("http://localhost:" + port + "/services/users/1.json");
+        getUser("http://localhost:" + port + "/services/users/1.json");
 
-                        getUser("http://localhost:" + port + "/services/users/2.xml");
+        getUser("http://localhost:" + port + "/services/users/2.xml");
 
         registerUser("http://localhost:" + port + "/services/u/register.json", MediaType.APPLICATION_JSON_TYPE);
 
@@ -62,10 +62,10 @@ public class RestClient {
         getUser("http://localhost:" + port + "/services/customers/1.json");
 
         getUser("http://localhost:" + port + "/services/customers/2.xml");
-//                    }
-//                }
-//            }).start();
-//        }
+        //                    }
+        //                }
+        //            }).start();
+        //        }
     }
 
     private static void registerUser(String url, MediaType mediaType) {
